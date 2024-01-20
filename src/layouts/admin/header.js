@@ -67,7 +67,7 @@ const Header = ({
         >
           <div className='mb-1'>
             <strong style={{ color: PRIMARY_COLOR.bgColor }}>
-              {`UMAL ${branch?.name}` || 'UMAL Marketing'}
+              BON TEA
             </strong>
           </div>
 
@@ -84,7 +84,7 @@ const Header = ({
         >
           <div className='mb-1'>
             <strong style={{ color: PRIMARY_COLOR.bgColor }}>
-              {`UMAL ${branch?.name}` || 'UMAL Marketing'}
+              BON TEA
             </strong>
           </div>
 
