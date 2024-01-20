@@ -1,6 +1,6 @@
 const isProduction = process.env.NODE_ENV === 'production';
 
-export const apiDomain = isProduction ? 'https://umal-marketing.online' : 'http://localhost:5000';
+export const apiDomain = isProduction ? 'https://umal-marketing.store' : 'http://localhost:5001';
 
 export const axiosUrl = `${apiDomain}/api`;
 
