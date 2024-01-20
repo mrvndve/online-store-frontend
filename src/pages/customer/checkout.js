@@ -41,9 +41,7 @@ const CustomerCheckout = () => {
     checkoutOrder,
   } = useCustomerCheckout();
 
-  const gcashPaymentOnly = ((deliveryFee + productsOrderedTotal) > 30000);
-
-  // const gcashPaymentOnly = false;
+  // const gcashPaymentOnly = ((deliveryFee + productsOrderedTotal) > 30000);
 
   return <>
     <div className='row g-4'>
@@ -166,7 +164,6 @@ const CustomerCheckout = () => {
                     checked={selectedPaymentMethod === i.name}
                     onChange={() => handlePaymentMethodChange(i.name)}
                     value={selectedPaymentMethod}
-                    disabled={(i.name === 'CASH_ON_DELIVERY' && gcashPaymentOnly)}
                   />
 
                   {i.label}
@@ -174,8 +171,6 @@ const CustomerCheckout = () => {
               </Fragment>
             ))}
           </div>
-          <br/>
-          Please note that the total for Cash on Delivery is within ₱30,000.00.
         </Card>
       </div>
 
@@ -198,7 +193,7 @@ const CustomerCheckout = () => {
               <div className='col-12'>
                 <div className='mb-2'>
                   <strong>
-                    Shipping Fee
+                    Delivery Fee
                   </strong>
                 </div>
 

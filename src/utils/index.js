@@ -77,10 +77,10 @@ const paymentMethods = [
     name: 'CASH_ON_DELIVERY',
     label: 'Cash on Delivery',
   },
-  {
-    name: 'GCASH',
-    label: 'GCash',
-  },
+  // {
+  //   name: 'GCASH',
+  //   label: 'GCash',
+  // },
 ];
 
 const paymentMethodsStatus = [
