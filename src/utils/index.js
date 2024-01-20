@@ -6,7 +6,7 @@ import moment from 'moment';
 
 import {
   axiosUrl,
-  apiDomain,
+  imgBaseUrl,
   XENDIT_API_KEY,
   reactAppDomain,
 } from './configs';
@@ -123,7 +123,7 @@ const getStatusLabel = {
 
 export {
   axiosUrl,
-  apiDomain,
+  imgBaseUrl,
   numbersOnly,
   emailOnly,
   alphanumericOnly,

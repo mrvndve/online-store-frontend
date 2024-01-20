@@ -9,7 +9,7 @@ import {
 import useCustomerCart from '../../hooks/use-customer-cart';
 import { isEmpty } from 'lodash';
 import { Fragment } from 'react';
-import { apiDomain, withCommasAndDecimal } from '../../utils';
+import { imgBaseUrl, withCommasAndDecimal } from '../../utils';
 
 const PriceWithDiscountComponent = ({sellerPrice, promotion}) => {
   const productDiscount = promotion.discountPercent / 100;
@@ -103,7 +103,7 @@ const CustomerCart = () => {
                               width: '100%',
                               objectFit: 'fill',
                             }}
-                            src={`${apiDomain}/uploads/${images[0].fileName}`}
+                            src={`${imgBaseUrl}/${images[0].fileName}`}
                           />
                         </div>
 

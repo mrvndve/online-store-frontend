@@ -24,7 +24,7 @@ import { isEmpty } from 'lodash';
 
 import { Fragment } from 'react';
 
-import { apiDomain, getPaymentMethodsLabel, orderStatus, withCommasAndDecimal } from '../../../utils';
+import { imgBaseUrl, getPaymentMethodsLabel, orderStatus, withCommasAndDecimal } from '../../../utils';
 
 import moment from 'moment';
 
@@ -67,7 +67,7 @@ const Products = ({ trans }) => (
               width: 100,
               height: 100,
             }} 
-            src={`${apiDomain}/uploads/${trans.product.images[0]?.fileName}`}
+            src={`${imgBaseUrl}/${trans.product.images[0]?.fileName}`}
 
           />
         </div>

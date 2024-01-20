@@ -13,7 +13,7 @@ import { Favorite, FavoriteBorderOutlined, ShoppingCartOutlined } from '@mui/ico
 
 import { isEmpty } from 'lodash';
 
-import { withCommasAndDecimal, apiDomain, PRIMARY_COLOR_YELLOW } from '../utils';
+import { withCommasAndDecimal, imgBaseUrl, PRIMARY_COLOR_YELLOW } from '../utils';
 
 import useProductCard from '../hooks/use-product-card';
 
@@ -79,7 +79,7 @@ const ProductCard = ({
             objectFit: 'fill',
             cursor: 'pointer',
           }}
-          src={`${apiDomain}/uploads/${images[0].fileName}`}
+          src={`${imgBaseUrl}/${images[0].fileName}`}
           onClick={(e) => handleClickProductCard(e, name)}
         />
         

@@ -10,7 +10,7 @@ import {
 } from '../../../components';
 
 import { 
-  apiDomain, 
+  imgBaseUrl, 
   withCommasAndDecimal,
 } from '../../../utils';
 
@@ -113,7 +113,7 @@ const ProductSection = ({
                   objectPosition: 'bottom',
                   maxWidth: '100%',
                 }} 
-                src={`${apiDomain}/uploads/${i.fileName}`} 
+                src={`${imgBaseUrl}/${i.fileName}`} 
               />
             </Fragment>
           ))}

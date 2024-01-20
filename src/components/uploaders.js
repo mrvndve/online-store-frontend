@@ -20,7 +20,7 @@ import {
 } from '@mui/icons-material';
 
 import useUploader from '../hooks/use-uploader';
-import { apiDomain, PRIMARY_COLOR } from '../utils';
+import { imgBaseUrl, PRIMARY_COLOR } from '../utils';
 
 const Uploader = ({
   type,
@@ -67,7 +67,7 @@ const Uploader = ({
                     }
                   >
                     <ListItemAvatar>
-                      <Avatar src={i.base64 ? i.base64 : `${apiDomain}/uploads/${i.fileName}`}>
+                      <Avatar src={i.base64 ? i.base64 : `${imgBaseUrl}/${i.fileName}`}>
                         <FolderCopy/>
                       </Avatar>
                     </ListItemAvatar>

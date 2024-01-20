@@ -9,7 +9,7 @@ import {
 } from '@mui/material';
 
 import { 
-  apiDomain, 
+  imgBaseUrl, 
 } from '../utils';
 
 const Card = ({
@@ -59,7 +59,7 @@ const CardWithMedia = ({
       <CardMedia
         component='img'
         height='150'
-        image={`${apiDomain}/uploads/book-lessons.jpeg`}
+        image={`${imgBaseUrl}/book-lessons.jpeg`}
         alt=''
       />
 
