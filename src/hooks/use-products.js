@@ -78,7 +78,6 @@ const useProducts = () => {
       arr.push({
         ['Sku Code']: data.skuCode,
         ['Product Name']: data.name,
-        ['Product Model']: data.modelNumber,
         ['Product Brand']: data?.brandName,
         ['Product Price']: data.price,
         ['Product SRP']: data.sellerPrice,
@@ -198,10 +197,6 @@ const useProducts = () => {
     {
       id: 'brandName',
       label: 'Product Brand',
-    },
-    {
-      id: 'modelNumber',
-      label: 'Product Model',
     },
     {
       id: 'price',
@@ -332,10 +327,6 @@ const useProducts = () => {
       {
         label: 'SKU',
         value: 'skuCode',
-      },
-      {
-        label: 'Product Model',
-        value: 'modelNumber',
       },
       {
         label: 'Product Brand',

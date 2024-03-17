@@ -119,18 +119,6 @@ const ProductsFormPage = () => {
               </div>
 
               <div className='col-sm-12 col-md-6 col-lg-6 col-xl-4'>
-                <TextField
-                  name='modelNumber'
-                  label='Model Number'
-                  {...register('modelNumber', { 
-                    required: 'Model number field is required.',
-                  })}
-                  defaultValue={selectedRow?.modelNumber}
-                  errors={fieldErrors}
-                />
-              </div>
-
-              <div className='col-sm-12 col-md-6 col-lg-6 col-xl-4'>
                 <PriceTextField
                   name='price'
                   label='Price'
@@ -150,18 +138,6 @@ const ProductsFormPage = () => {
                     required: 'SRP field is required.',
                   })}
                   defaultValue={selectedRow?.sellerPrice}
-                  errors={fieldErrors}
-                />
-              </div>
-
-              <div className='col-sm-12 col-md-6 col-lg-6 col-xl-4'>
-                <TextField
-                  name='daysOfWarranty'
-                  label='Days of Warranty'
-                  {...register('daysOfWarranty', { 
-                    required: 'Days of Warranty field is required.',
-                  })}
-                  defaultValue={selectedRow?.daysOfWarranty}
                   errors={fieldErrors}
                 />
               </div>

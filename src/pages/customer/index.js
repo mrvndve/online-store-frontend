@@ -63,9 +63,10 @@ const BannerCarousel = ({
 
 const Banner = ({ navigate }) => {
   const carousel = [
-    'BannerMonitor.png',
-    'BannerMonitor.png',
-    'BannerMonitor.png',
+    'banner1.jpg',
+    'banner2.jpg',
+    'banner3.jpg',
+    'banner4.jpg'
   ];
 
   return <>
@@ -81,11 +82,11 @@ const Banner = ({ navigate }) => {
           <div className='row gy-5'>
             <div className='col-sm-12 col-md-6 col-lg-6 col-xl-6'>
               <div className='mb-3'>
-                <Title text='Umal Marketing'/>
+                <Title text='Bon Tea'/>
               </div>
 
               <div className='mb-5'>
-                <Title text='Serving Technology better'/>
+                <Title text='The best and most affordable milktea in La Union'/>
               </div>
 
               <div>

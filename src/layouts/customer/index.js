@@ -68,7 +68,7 @@ const CustomerPageLayout = ({ children }) => {
     <Box sx={{ textAlign: 'center' }}>
       <Typography variant="h6" sx={{ my: 2, fontWeight: 'bold' }}>
         <span style={{ cursor: 'pointer' }} onClick={() => navigate('/')}>
-          UMAL
+          BON TEA
         </span>
       </Typography>
 
@@ -159,7 +159,7 @@ const CustomerPageLayout = ({ children }) => {
             sx={{ flexGrow: 1, fontWeight: 'bold' }}
           >
             <span style={{ cursor: 'pointer' }} onClick={() => navigate('/')}>
-              UMAL
+              BON TEA
             </span>
           </Typography>
 
@@ -378,33 +378,18 @@ const CustomerPageLayout = ({ children }) => {
           }}
         >
           <div className='row g-5'>
-            <div className='col-sm-12 col-md-6 col-lg-4 col-xl-5'>
+            <div className='col-sm-12 col-md-6 col-lg-4 col-xl-3'>
               <div className='mb-4'>
                 <h5>
                   <strong>
-                    Branches
+                    Address
                   </strong>
                 </h5>
               </div>
 
               <div className='mb-3'>
                 <LocationOn className='me-2'/> 
-                Block 1 Lot 33 Grand Cypress HomeOutlineds Tungkong Mangga, San Jose del Monte, Philippines
-              </div>
-
-              <div className='mb-3'>
-                <LocationOn className='me-2'/>
-                196 Kaypandan St. Canumay West 1443 Valenzuela, Philippines
-              </div>
-
-              <div className='mb-3'>
-                <LocationOn className='me-2'/>
-                868 PARTIDA 1301 Norzagaray, Philippines
-              </div>
-
-              <div className='mb-2'>
-                <LocationOn className='me-2'/>
-                MacArthur Hwy, Urdaneta, 2428 Pangasinan
+                San Fernando, La Union
               </div>
             </div>
 
@@ -419,16 +404,16 @@ const CustomerPageLayout = ({ children }) => {
 
               <div className='mb-3'>
                 <Call className='me-2'/> 
-                09264753651
+                +63 945 750 0661
               </div>
 
               <div>
                 <Email className='me-2'/> 
-                gajultos.garry123@gmail.com
+                bonteasfclaunion@gmail.com
               </div>
             </div>
 
-            <div className='col-sm-12 col-md-6 col-lg-4 col-xl-2'>
+            <div className='col-sm-12 col-md-6 col-lg-4 col-xl-3'>
               <div className='mb-4'>
                 <h5>
                   <strong>
@@ -440,13 +425,9 @@ const CustomerPageLayout = ({ children }) => {
               <div className='mb-3'>
                 Cash on Delivery(COD)
               </div>
-
-              <div className='mb-2'>
-                Gcash
-              </div>
             </div>
 
-            <div className='col-sm-12 col-md-6 col-lg-4 col-xl-2'>
+            <div className='col-sm-12 col-md-6 col-lg-4 col-xl-3'>
               <div className='mb-4'>
                 <h5>
                   <strong>
@@ -459,19 +440,19 @@ const CustomerPageLayout = ({ children }) => {
                 <Facebook
                   className='me-3'
                   style={{ cursor: 'pointer'}}
-                  onClick={() => window.open('https://www.facebook.com/Umalmarketing')}
+                  onClick={() => window.open('https://www.facebook.com/bonteasfclaunion')}
                 />
 
                 <Instagram 
                   className='me-3'
                   style={{ cursor: 'pointer'}}
-                  onClick={() => window.open('https://www.facebook.com/Umalmarketing')}
+                  onClick={() => window.open('https://www.facebook.com/bonteasfclaunion')}
                 />
                 
                 <Twitter
                   className='me-3'
                   style={{ cursor: 'pointer'}}
-                  onClick={() => window.open('https://www.facebook.com/Umalmarketing')}
+                  onClick={() => window.open('https://www.facebook.com/bonteasfclaunion')}
                 />
               </div>
             </div>

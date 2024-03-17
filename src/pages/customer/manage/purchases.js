@@ -233,12 +233,12 @@ const CustomerPurchases = () => {
                             />
                           )}
 
-                          <Button 
+                          {/* <Button 
                             color='primary' 
                             label={`${trans.status === orderStatus.PENDING_RETURN ? 'Return Processing' : 'Return / Refund'}`}
                             onClick={() => handleOpenModal('Return Order', trans.id)}
-                            disabled={(moment(trans.createdAt).diff(new Date(), 'days') + 1) >= (trans.product?.daysOfWarranty || 7) || trans.status === orderStatus.PENDING_RETURN}
-                          />
+                            disabled={trans.status === orderStatus.PENDING_RETURN}
+                          /> */}
                         </div>
 
                         <hr/>
